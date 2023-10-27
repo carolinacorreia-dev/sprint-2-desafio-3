@@ -13,9 +13,9 @@
  <br><br>
 	3. Instale o Docker Community Edition (CE) e habilite o serviço Docker para iniciar automaticamente:
  <br>
-	sudo yum install docker-ce
-	sudo systemctl start docker
-	sudo systemctl enable docker
+	sudo yum install docker-ce<br>
+	sudo systemctl start docker<br>
+	sudo systemctl enable docker<br>
  <br><br>
 <strong>Passo 2: Instalar o Docker Compose</strong>
 <br>
@@ -30,7 +30,7 @@
 <strong>Passo 3: Criar um diretório para o projeto Docker Compose</strong>
 <br>
 	Crie um diretório para o projeto Docker Compose. Por exemplo:
-	mkdir docker-wordpress
+	mkdir docker-wordpress<br>
 	cd docker-wordpress
  <br><br>
 <strong>Passo 4: Criar um arquivo docker-compose.yml</strong>
