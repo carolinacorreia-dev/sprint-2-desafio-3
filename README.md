@@ -29,7 +29,7 @@
  <br><br>
 <strong>Passo 3: Criar um diretório para o projeto Docker Compose</strong>
 <br>
-	Crie um diretório para o projeto Docker Compose. Por exemplo:
+	Crie um diretório para o projeto Docker Compose. Por exemplo:<br>
 	mkdir docker-wordpress<br>
 	cd docker-wordpress
  <br><br>
