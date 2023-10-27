@@ -79,23 +79,23 @@ services:
 		<br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 80:80
 			<br>
-    restart: always
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;restart: always
 		<br>
-    environment:
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;environment:
 		<br>
-      - WORDPRESS_DB_HOST=db
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- WORDPRESS_DB_HOST=db
 			<br>
-      - WORDPRESS_DB_USER=wordpress
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- WORDPRESS_DB_USER=wordpress
 			<br>
-      - WORDPRESS_DB_PASSWORD=wordpress
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- WORDPRESS_DB_PASSWORD=wordpress
 			<br>
-      - WORDPRESS_DB_NAME=wordpress
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- WORDPRESS_DB_NAME=wordpress
 			<br>
-volumes:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;volumes:
 <br>
-  db_data:
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;db_data:
 	<br>
-  wp_data:
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wp_data:
 	<br><br>
 Isso cria um serviço WordPress e um serviço de banco de dados MySQL com volumes para persistência.
 <br><br>
