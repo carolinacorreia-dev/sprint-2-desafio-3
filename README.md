@@ -1,7 +1,7 @@
 # sprint-2-desafio-3
 <h1><strong>Instalar o docker no linux, criar uma imagem do wordpress com banco de dados e persistir os dados usando docker-compose</strong></h1>
 <br>
-Passo 1: Instalar o Docker no Oracle Linux 8
+<strong>Passo 1: Instalar o Docker no Oracle Linux 8</strong>
 <br><br>
 	1. Atualize seu sistema Linux:
  <br>
@@ -17,7 +17,7 @@ Passo 1: Instalar o Docker no Oracle Linux 8
 	sudo systemctl start docker
 	sudo systemctl enable docker
  <br><br>
-Passo 2: Instalar o Docker Compose
+<strong>Passo 2: Instalar o Docker Compose</strong>
 <br>
 	1. Baixe a versão mais recente do Docker Compose:
  <br>
@@ -27,13 +27,13 @@ Passo 2: Instalar o Docker Compose
  <br>
 	sudo chmod +x /usr/local/bin/docker-compose
  <br><br>
-Passo 3: Criar um diretório para o projeto Docker Compose
+<strong>Passo 3: Criar um diretório para o projeto Docker Compose</strong>
 <br>
 	Crie um diretório para o projeto Docker Compose. Por exemplo:
 	mkdir docker-wordpress
 	cd docker-wordpress
  <br><br>
-Passo 4: Criar um arquivo docker-compose.yml
+<strong>Passo 4: Criar um arquivo docker-compose.yml</strong>
 <br>
 	Crie um arquivo chamado docker-compose.yml neste diretório com o seguinte conteúdo:
  <br><br>
@@ -99,12 +99,12 @@ volumes:
 	<br><br>
 Isso cria um serviço WordPress e um serviço de banco de dados MySQL com volumes para persistência.
 <br><br>
-Passo 5: Iniciar os contêineres
+<strong>Passo 5: Iniciar os contêineres</strong>
 <br>
 	Dentro do diretório onde você criou o arquivo docker-compose.yml, execute o seguinte comando para iniciar os contêineres:
  <br>
 	docker-compose up -d
  <br><br>
-Passo 6: Acessar o WordPress
+<strong>Passo 6: Acessar o WordPress</strong>
 <br>
 	Após iniciar os contêineres, você pode acessar o WordPress no seu navegador em http://localhost.
